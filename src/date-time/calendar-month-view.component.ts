@@ -324,7 +324,7 @@ export class OwlMonthViewComponent<T> implements OnInit, AfterContentInit, OnDes
      * @param {KeyboardEvent} event
      * @return {void}
      * */
-    public handleCalendarKeydown( event: KeyboardEvent ): void {
+    public handleCalendarKeydown( event: any ): void {
         let moment;
         switch (event.keyCode) {
             // minus 1 day

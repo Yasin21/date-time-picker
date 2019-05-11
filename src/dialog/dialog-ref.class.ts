@@ -99,7 +99,7 @@ export class OwlDialogRef<T> {
     /**
      * Gets an observable that emits when keydown events are targeted on the overlay.
      */
-    public keydownEvents(): Observable<KeyboardEvent> {
+    public keydownEvents(): Observable<any> {
         return this.overlayRef.keydownEvents();
     }
 
